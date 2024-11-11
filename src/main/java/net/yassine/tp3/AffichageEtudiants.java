@@ -50,7 +50,12 @@ public class AffichageEtudiants extends HttpServlet {
         out.println("<table border='1'>");
         out.println("<tr><th>CIN</th><th>Nom</th><th>Moyenne</th><th>Photo</th></tr>");
         for (Etudiant etudiant : GestionEtudiants.getListeEtudiants()) {
-            out.println("<tr>");
+            if(etudiant.getMoyenne() < 10 ){
+                out.println("<tr style =\"background-color:red\">");
+            } else{
+                out.println("<tr style=\"background-color:yellow\">");
+            }
+
             out.println("<td>" + etudiant.getCin() + "</td>");
             out.println("<td>" + etudiant.getNom() + "</td>");
             out.println("<td>" + etudiant.getMoyenne() + "</td>");
