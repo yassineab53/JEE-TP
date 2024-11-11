@@ -22,3 +22,8 @@ The project includes exercises on:
 **JDK 8 or higher** <br>
 **Maven or Gradle** (depending on the project) <br>
 **JEE-compatible server** (such as Tomcat, WildFly, or GlassFish) <br>
+
+## Author
+**Yassine Abbou** <br>
+**Email:** yssnabbou2002@gmail.com <br>
+**Phone:** +212604409284
