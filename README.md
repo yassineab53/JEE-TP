@@ -20,7 +20,7 @@ The project includes exercises on:
 
 ## Requirements
 **JDK 8 or higher** <br>
-**Maven or Gradle** (depending on the project) <br>
+**Maven** for dependency management and project build<br>
 **JEE-compatible server** (such as Tomcat, WildFly, or GlassFish) <br>
 
 ## Author
